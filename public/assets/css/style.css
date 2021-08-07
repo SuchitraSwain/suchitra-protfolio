@@ -23,15 +23,18 @@ body::-webkit-scrollbar {
 body::before {
   content: "";
   position: fixed;
-  background: #040404
-    url("https://lh6.googleusercontent.com/proxy/HdQ1V9k-Ur-EtGLEb1X3FvhyoSwK54jK6-VRyr1w1TuFZrjyy2r6IAhrGwK0GV8xHwc4Cg")
-    top right no-repeat;
+  background: #040404;
+  /* background: #040404
+    url("https://images.prismic.io/lick/e841d8c1-98b5-453b-82dc-729819da0efe_dark-room.jpg?auto=compress,format&rect=0,0,5301,3631&w=1600&h=1096")
+    top right no-repeat; */
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
+  background-position: center;
+
 }
 
 @media (min-width: 1024px) {
@@ -198,9 +201,11 @@ h6 {
   display: block;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .nav-menu a:before {
@@ -982,9 +987,9 @@ section .container {
 }
 
 .contact .info-box .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
-  color: #fff;
+  /* color: #fff; */
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
