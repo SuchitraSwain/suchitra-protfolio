@@ -10,7 +10,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background: #040404 !important;
+    /* background: url("https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg")
+    top right no-repeat !important; */
+    /* background-image: url("https://www.teahub.io/down/ibobJJT_work-desk-background/") !important; */
+
   color: #fff;
   position: relative;
   background: transparent;
@@ -23,10 +27,8 @@ body::-webkit-scrollbar {
 body::before {
   content: "";
   position: fixed;
-  background: #040404;
-  /* background: #040404
-    url("https://images.prismic.io/lick/e841d8c1-98b5-453b-82dc-729819da0efe_dark-room.jpg?auto=compress,format&rect=0,0,5301,3631&w=1600&h=1096")
-    top right no-repeat; */
+  /* background: #040404 !important; */
+
   background-size: cover;
   left: 0;
   right: 0;
@@ -34,7 +36,7 @@ body::before {
   height: 100vh;
   z-index: -1;
   background-position: center;
-
+  /* color: #040404; */
 }
 
 @media (min-width: 1024px) {
@@ -396,6 +398,7 @@ section .container {
   section.section-show {
     top: 80px;
   }
+
 }
 
 .section-title h2 {
@@ -967,7 +970,7 @@ section .container {
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   margin: 10px 0 8px 68px;
@@ -977,8 +980,9 @@ section .container {
   padding: 0;
   color: #fff;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0 0 0 68px;
+  word-wrap: break-word;
 }
 
 .contact .info-box .social-links {
@@ -1240,6 +1244,7 @@ section .container {
     background: rgba(0, 0, 0, 0.8);
   }
 }
+
 
 .credits a {
   color: #18d26e;
